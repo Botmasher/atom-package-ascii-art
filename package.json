@@ -1,0 +1,19 @@
+{
+  "name": "botmasher-ascii-art",
+  "main": "./lib/botmasher-ascii-art",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "botmasher-ascii-art:convert"
+  },
+  "repository": "https://github.com/atom/botmasher-ascii-art",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.0.8"
+  }
+}

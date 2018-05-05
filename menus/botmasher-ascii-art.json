@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle botmasher-ascii-art",
+        "command": "botmasher-ascii-art:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "botmasher-ascii-art",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "botmasher-ascii-art:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
