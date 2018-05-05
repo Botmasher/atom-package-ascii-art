@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle botmasher-ascii-art",
-        "command": "botmasher-ascii-art:toggle"
+        "label": "Convert to ASCII Art",
+        "command": "botmasher-ascii-art:convert"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "botmasher-ascii-art",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "botmasher-ascii-art:toggle"
+              "label": "Convert to ASCII Art",
+              "command": "botmasher-ascii-art:convert"
             }
           ]
         }
